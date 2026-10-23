@@ -2,3 +2,4 @@
 *.hi
 *.o
 /target/
+__pycache__/

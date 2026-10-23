@@ -1,0 +1,238 @@
+{
+  "patterns/data-structure/sequence.md": {
+    "1": {
+      "kind": "fragment",
+      "note": "独立した式の例です。import qualified Data.Sequence as Seq が必要です。"
+    },
+    "2": {
+      "kind": "program",
+      "note": ""
+    },
+    "3": {
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。ブロック5にも同名の popFront があるため、重複して定義しないでください。"
+    },
+    "4": {
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。"
+    },
+    "5": {
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。ブロック3にも同名の popFront があるため、重複して定義しないでください。"
+    },
+    "6": {
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。空の履歴には最新の1要素を追加します。"
+    }
+  },
+  "patterns/data-structure/set.md": {
+    "1": {
+      "kind": "fragment",
+      "note": "import qualified Data.Set as Set と、元の集合 s0 の定義が必要です。"
+    },
+    "2": {
+      "kind": "program",
+      "note": ""
+    },
+    "3": {
+      "kind": "program",
+      "note": ""
+    },
+    "4": {
+      "kind": "fragment",
+      "note": "do 内などで使う断片です。import qualified Data.Set as Set と、x・points の定義が必要です。"
+    }
+  },
+  "patterns/math/sum-formulas.md": {
+    "1": {
+      "kind": "definitions",
+      "note": "main を含まない関数群です。n は非負整数を想定しています。"
+    },
+    "2": {
+      "kind": "definitions",
+      "note": "geomSumMod は別途 pow_mod・inv_mod が必要です。分母の逆元が存在する法を使ってください。sumN・sumSq を含め、途中の整数積が PHP の整数範囲に収まる必要があります。"
+    }
+  },
+  "patterns/search/bfs.md": {
+    "1": {
+      "kind": "broken",
+      "note": "原文に既知の不備があり、そのままではコンパイルできません。foldM の import、where/do の配置、d・q' のスコープに修正が必要です。また adj !! v は線形アクセスなので、一般に全体 O(V+E) は保証されません。"
+    },
+    "2": {
+      "kind": "definitions",
+      "note": "頂点は 0-indexed です。main に相当する呼び出し処理は含みません。"
+    }
+  },
+  "patterns/search/binary-search.md": {
+    "1": {
+      "kind": "program",
+      "note": "昇順にソートされた 0-indexed 配列を想定しています。lowerBound・upperBound は count($a) を返すことがあります。末尾に実行例を含みます。"
+    }
+  },
+  "reviews/abc469.md": {
+    "1": {
+      "kind": "incomplete",
+      "note": "リスト操作と匿名関数の構文例です。各行は独立した断片で、最後の匿名関数は本体を省略しています。"
+    },
+    "2": {
+      "kind": "fragment",
+      "note": "s を定義して使う独立した式の例です。添字は1から数えます。"
+    },
+    "3": {
+      "kind": "program",
+      "note": "ABC469 C の復習用コードです。N と文字列を入力し、k=1..N について k 個目の x の位置を出力します。x が k 個未満なら N を出力します。"
+    }
+  },
+  "tips/io-patterns.md": {
+    "1": {
+      "kind": "program",
+      "note": ""
+    },
+    "2": {
+      "kind": "program",
+      "note": ""
+    },
+    "3": {
+      "kind": "program",
+      "note": ""
+    },
+    "4": {
+      "kind": "fragment",
+      "note": "do 内で使う入力とタプル分解の断片です。用途に応じた数値型を指定してください。"
+    },
+    "5": {
+      "kind": "program",
+      "note": ""
+    },
+    "6": {
+      "kind": "program",
+      "note": ""
+    },
+    "7": {
+      "kind": "program",
+      "note": ""
+    },
+    "8": {
+      "kind": "program",
+      "note": ""
+    },
+    "9": {
+      "kind": "program",
+      "note": ""
+    },
+    "10": {
+      "kind": "program",
+      "note": "grid !! 1 !! 2 を参照するため、入力行列は少なくとも2行3列必要です。コメントの出力7は元の3行4列の入力例に対応します。"
+    },
+    "11": {
+      "kind": "program",
+      "note": "$grid[1][2] を参照するため、入力行列は少なくとも2行3列必要です。コメントの出力7は元の3行4列の入力例に対応します。"
+    },
+    "12": {
+      "kind": "program",
+      "note": ""
+    },
+    "13": {
+      "kind": "program",
+      "note": ""
+    },
+    "14": {
+      "kind": "program",
+      "note": ""
+    },
+    "15": {
+      "kind": "fragment",
+      "note": "do 内などで使う let の断片です。文字列 s の定義が必要です。"
+    },
+    "16": {
+      "kind": "program",
+      "note": ""
+    },
+    "17": {
+      "kind": "fragment",
+      "note": "文字列 $s の定義が必要です。"
+    },
+    "18": {
+      "kind": "program",
+      "note": ""
+    },
+    "19": {
+      "kind": "program",
+      "note": ""
+    },
+    "20": {
+      "kind": "program",
+      "note": ""
+    },
+    "21": {
+      "kind": "program",
+      "note": ""
+    },
+    "22": {
+      "kind": "fragment",
+      "note": "do 内で使う出力処理の例です。"
+    },
+    "23": {
+      "kind": "program",
+      "note": ""
+    },
+    "24": {
+      "kind": "fragment",
+      "note": "do 内で使う、スペース区切りの出力例です。"
+    },
+    "25": {
+      "kind": "program",
+      "note": ""
+    },
+    "26": {
+      "kind": "fragment",
+      "note": "do 内で使う出力処理の例です。mapM_ と unlines の両方を実行すると同じ値を2回ずつ出力します。用途に応じて片方を選んでください。"
+    },
+    "27": {
+      "kind": "program",
+      "note": ""
+    },
+    "28": {
+      "kind": "fragment",
+      "note": "do 内などで使う出力処理です。Bool 型の ok の定義が必要です。"
+    },
+    "29": {
+      "kind": "fragment",
+      "note": "真偽値 $ok の定義が必要です。"
+    },
+    "30": {
+      "kind": "broken",
+      "note": "入力処理の骨組みです。原文は do の末尾が let のみなので、そのままではコンパイルできません。末尾に出力などの IO アクションを追加してください。"
+    },
+    "31": {
+      "kind": "program",
+      "note": ""
+    },
+    "32": {
+      "kind": "program",
+      "note": "入力を配列へ読み込む例です。答えの計算・出力処理は含みません。"
+    },
+    "33": {
+      "kind": "fragment",
+      "note": "import 宣言のみです。必要なファイルの先頭へ追加してください。"
+    }
+  },
+  "tips/naming.md": {
+    "1": {
+      "kind": "fragment",
+      "note": "do 内での命名例です。n・pair の定義と、ST・STUArray・newArray の import が必要です。"
+    },
+    "2": {
+      "kind": "incomplete",
+      "note": "関数の命名例です。solve・check の本体は ... で省略され、go は外側の n・a と配列演算子 ! の import を必要とします。"
+    },
+    "3": {
+      "kind": "program",
+      "note": "入力を読む変数初期化の例です。答えの計算・出力処理は含みません。"
+    },
+    "4": {
+      "kind": "incomplete",
+      "note": "関数の命名を示す未実装のひな型です。check は bool を返す処理が必要で、bfs は探索処理を省略しています。"
+    }
+  }
+}

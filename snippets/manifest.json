@@ -1,0 +1,834 @@
+{
+  "source": "atcoder-notebook/docs",
+  "counts": {
+    "haskell": 35,
+    "php": 20
+  },
+  "snippets": [
+    {
+      "source": "docs/patterns/data-structure/sequence.md",
+      "index": 1,
+      "language": "haskell",
+      "headings": [
+        "Sequence（両端を効率よく扱う列）",
+        "考え方"
+      ],
+      "tab": "",
+      "kind": "fragment",
+      "note": "独立した式の例です。import qualified Data.Sequence as Seq が必要です。",
+      "code_sha256": "9f254415489a965271552c171b7c74c8f161c9fca7f968ba03c971359ece61d2",
+      "published": "snippets/patterns/data-structure/sequence.md#snippet-01"
+    },
+    {
+      "source": "docs/patterns/data-structure/sequence.md",
+      "index": 2,
+      "language": "haskell",
+      "headings": [
+        "Sequence（両端を効率よく扱う列）",
+        "コード",
+        "基本操作"
+      ],
+      "tab": "",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "a17e159ab5bc4638d8aae539fc357d9e4159d7fe02c93a5b0a863b88ca15b242",
+      "published": "snippets/patterns/data-structure/sequence.md#snippet-02"
+    },
+    {
+      "source": "docs/patterns/data-structure/sequence.md",
+      "index": 3,
+      "language": "haskell",
+      "headings": [
+        "Sequence（両端を効率よく扱う列）",
+        "コード",
+        "左端・右端から取り出す"
+      ],
+      "tab": "",
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。ブロック5にも同名の popFront があるため、重複して定義しないでください。",
+      "code_sha256": "3383ef0d8fcab5e96400f538575e307e04e31706cee62c761562e3469d5f0cdd",
+      "published": "snippets/patterns/data-structure/sequence.md#snippet-03"
+    },
+    {
+      "source": "docs/patterns/data-structure/sequence.md",
+      "index": 4,
+      "language": "haskell",
+      "headings": [
+        "Sequence（両端を効率よく扱う列）",
+        "コード",
+        "左端・右端から取り出す"
+      ],
+      "tab": "",
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。",
+      "code_sha256": "0db74b92019a65db849220dfbc9fc5b7c43c8adc425e253535bfe263cc5f8cd1",
+      "published": "snippets/patterns/data-structure/sequence.md#snippet-04"
+    },
+    {
+      "source": "docs/patterns/data-structure/sequence.md",
+      "index": 5,
+      "language": "haskell",
+      "headings": [
+        "Sequence（両端を効率よく扱う列）",
+        "コード",
+        "キューとして使う"
+      ],
+      "tab": "",
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。ブロック3にも同名の popFront があるため、重複して定義しないでください。",
+      "code_sha256": "63dac7b87ef0db95efe2c929182dcf3cd8eb7d18447322bf081b96eb8635274f",
+      "published": "snippets/patterns/data-structure/sequence.md#snippet-05"
+    },
+    {
+      "source": "docs/patterns/data-structure/sequence.md",
+      "index": 6,
+      "language": "haskell",
+      "headings": [
+        "Sequence（両端を効率よく扱う列）",
+        "コード",
+        "固定長の履歴をずらす"
+      ],
+      "tab": "",
+      "kind": "definitions",
+      "note": "import qualified Data.Sequence as Seq が必要です。空の履歴には最新の1要素を追加します。",
+      "code_sha256": "03694e33ee3678ad160c21c743c35a85b5ca242017a6f62c37d939a77c85dea8",
+      "published": "snippets/patterns/data-structure/sequence.md#snippet-06"
+    },
+    {
+      "source": "docs/patterns/data-structure/set.md",
+      "index": 1,
+      "language": "haskell",
+      "headings": [
+        "Set（重複のない順序付き集合）",
+        "考え方"
+      ],
+      "tab": "",
+      "kind": "fragment",
+      "note": "import qualified Data.Set as Set と、元の集合 s0 の定義が必要です。",
+      "code_sha256": "8a49ca7588e53f0a86bf1ebff0d0b9135eff83dd012108d492b2ae6a23c5e5a3",
+      "published": "snippets/patterns/data-structure/set.md#snippet-01"
+    },
+    {
+      "source": "docs/patterns/data-structure/set.md",
+      "index": 2,
+      "language": "haskell",
+      "headings": [
+        "Set（重複のない順序付き集合）",
+        "コード",
+        "基本操作"
+      ],
+      "tab": "",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "7375cbf9e80a4c1df2adf8bb47e3d2bf04585ebd20fd060cf55ef904cc50f1a5",
+      "published": "snippets/patterns/data-structure/set.md#snippet-02"
+    },
+    {
+      "source": "docs/patterns/data-structure/set.md",
+      "index": 3,
+      "language": "haskell",
+      "headings": [
+        "Set（重複のない順序付き集合）",
+        "コード",
+        "直前・直後の値を探す"
+      ],
+      "tab": "",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "1d120db0253f3aaa771193b922b46aade8d8e7431c521289d2d58212376e3887",
+      "published": "snippets/patterns/data-structure/set.md#snippet-03"
+    },
+    {
+      "source": "docs/patterns/data-structure/set.md",
+      "index": 4,
+      "language": "haskell",
+      "headings": [
+        "Set（重複のない順序付き集合）",
+        "コード",
+        "直前・直後の値を探す"
+      ],
+      "tab": "",
+      "kind": "fragment",
+      "note": "do 内などで使う断片です。import qualified Data.Set as Set と、x・points の定義が必要です。",
+      "code_sha256": "1a28483296e4e4d09c979d371ce2d2a9b56abc19c236a86eb592d7d4d2f9b5f0",
+      "published": "snippets/patterns/data-structure/set.md#snippet-04"
+    },
+    {
+      "source": "docs/patterns/math/sum-formulas.md",
+      "index": 1,
+      "language": "haskell",
+      "headings": [
+        "数列の総和の一般式",
+        "コード"
+      ],
+      "tab": "Haskell",
+      "kind": "definitions",
+      "note": "main を含まない関数群です。n は非負整数を想定しています。",
+      "code_sha256": "f0f22eb76b0c843827dbd7175ba4583dce9666fd6c2fc56f2610caaf0d897562",
+      "published": "snippets/patterns/math/sum-formulas.md#snippet-01"
+    },
+    {
+      "source": "docs/patterns/math/sum-formulas.md",
+      "index": 2,
+      "language": "php",
+      "headings": [
+        "数列の総和の一般式",
+        "コード"
+      ],
+      "tab": "PHP",
+      "kind": "definitions",
+      "note": "geomSumMod は別途 pow_mod・inv_mod が必要です。分母の逆元が存在する法を使ってください。sumN・sumSq を含め、途中の整数積が PHP の整数範囲に収まる必要があります。",
+      "code_sha256": "0a6c0fe9055697d6165bd4ca36d9b9484b0fb840cc82098b9b7bad61359bf495",
+      "published": "snippets/patterns/math/sum-formulas.md#snippet-02"
+    },
+    {
+      "source": "docs/patterns/search/bfs.md",
+      "index": 1,
+      "language": "haskell",
+      "headings": [
+        "BFS（幅優先探索）",
+        "コード"
+      ],
+      "tab": "Haskell",
+      "kind": "broken",
+      "note": "原文に既知の不備があり、そのままではコンパイルできません。foldM の import、where/do の配置、d・q' のスコープに修正が必要です。また adj !! v は線形アクセスなので、一般に全体 O(V+E) は保証されません。",
+      "code_sha256": "6d1d965fa56e697ee6bd5dd56595445ecf0776442ba66568578777bba9499e3a",
+      "published": "snippets/patterns/search/bfs.md#snippet-01"
+    },
+    {
+      "source": "docs/patterns/search/bfs.md",
+      "index": 2,
+      "language": "php",
+      "headings": [
+        "BFS（幅優先探索）",
+        "コード"
+      ],
+      "tab": "PHP",
+      "kind": "definitions",
+      "note": "頂点は 0-indexed です。main に相当する呼び出し処理は含みません。",
+      "code_sha256": "04436c19d2f4c2a8b2415ed28a223765fa18f481973466f955094c6e7a8a6477",
+      "published": "snippets/patterns/search/bfs.md#snippet-02"
+    },
+    {
+      "source": "docs/patterns/search/binary-search.md",
+      "index": 1,
+      "language": "php",
+      "headings": [
+        "二分探索",
+        "コード"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "昇順にソートされた 0-indexed 配列を想定しています。lowerBound・upperBound は count($a) を返すことがあります。末尾に実行例を含みます。",
+      "code_sha256": "e0c9c4bb10345c9638f60f5347957abd2abf7030ac31fa1a05b50abb2dbdb47b",
+      "published": "snippets/patterns/search/binary-search.md#snippet-01"
+    },
+    {
+      "source": "docs/reviews/abc469.md",
+      "index": 1,
+      "language": "haskell",
+      "headings": [
+        "ABC469 振り返り",
+        "良かった点",
+        "A・BをHaskellでACできた"
+      ],
+      "tab": "",
+      "kind": "incomplete",
+      "note": "リスト操作と匿名関数の構文例です。各行は独立した断片で、最後の匿名関数は本体を省略しています。",
+      "code_sha256": "6e6020b983eb2fb34735f9c9c32f988f8cd4c7a25760c61b2b94704747c806cd",
+      "published": "snippets/reviews/abc469.md#snippet-01"
+    },
+    {
+      "source": "docs/reviews/abc469.md",
+      "index": 2,
+      "language": "haskell",
+      "headings": [
+        "ABC469 振り返り",
+        "今後のHaskell学習"
+      ],
+      "tab": "",
+      "kind": "fragment",
+      "note": "s を定義して使う独立した式の例です。添字は1から数えます。",
+      "code_sha256": "51184a32a2d3d73db7423e19d45a9a810d9d534ec344bbb4ab1320ba3910043d",
+      "published": "snippets/reviews/abc469.md#snippet-02"
+    },
+    {
+      "source": "docs/reviews/abc469.md",
+      "index": 3,
+      "language": "haskell",
+      "headings": [
+        "ABC469 振り返り",
+        "今後のHaskell学習"
+      ],
+      "tab": "",
+      "kind": "program",
+      "note": "ABC469 C の復習用コードです。N と文字列を入力し、k=1..N について k 個目の x の位置を出力します。x が k 個未満なら N を出力します。",
+      "code_sha256": "9a4aa50e5228a8eaadfe3d3042f1c20c9a2eb81a5d07696aabaa18fc8a3ca8da",
+      "published": "snippets/reviews/abc469.md#snippet-03"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 1,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "1. 1行・1値"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "2585943f22ce1edbdf6d3eec9de3e1f2a15e4a3907fa2a4ea32162ef65416dde",
+      "published": "snippets/tips/io-patterns.md#snippet-01"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 2,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "1. 1行・1値"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "2f828a150fcf62efeac202954ba14607a6f140b15fa2aac8a1837e444d13e34b",
+      "published": "snippets/tips/io-patterns.md#snippet-02"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 3,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "2. 1行・スペース区切り複数値"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "860c862efe6a953f2fcd6feecf1cd5561f9a71f442d301f5b0465ecbfa671c52",
+      "published": "snippets/tips/io-patterns.md#snippet-03"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 4,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "2. 1行・スペース区切り複数値"
+      ],
+      "tab": "Haskell",
+      "kind": "fragment",
+      "note": "do 内で使う入力とタプル分解の断片です。用途に応じた数値型を指定してください。",
+      "code_sha256": "abef7bf78342c6b2b8044f87c82f0142f3dc4a0281bf9001e2cc7a5be2ba17df",
+      "published": "snippets/tips/io-patterns.md#snippet-04"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 5,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "2. 1行・スペース区切り複数値"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "9892cb5f92bbcbc0f52ec02bc182489804e0ecd6d7537c3e34d6137499e87924",
+      "published": "snippets/tips/io-patterns.md#snippet-05"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 6,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "3. N個の値を1行ずつ読む"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "55056cdf84c206ef99d62186c696eb240dea035938bb01ea384f1f99e61c59a4",
+      "published": "snippets/tips/io-patterns.md#snippet-06"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 7,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "3. N個の値を1行ずつ読む"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "a072c478f90a576538ad189c6492b0d9a58700b301fd5bf7c7289593385bb185",
+      "published": "snippets/tips/io-patterns.md#snippet-07"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 8,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "4. 1行にN個・スペース区切り（配列）"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "70ee7f0b090f25e8c8843488ab46a3d8051222bbc11d3bb3b1140c608915cd38",
+      "published": "snippets/tips/io-patterns.md#snippet-08"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 9,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "4. 1行にN個・スペース区切り（配列）"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "313b9bed7ad1f1e3e273e8066328095b4c9193fc2f7e0ef935a8e5986fd0625a",
+      "published": "snippets/tips/io-patterns.md#snippet-09"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 10,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "5. N×M の行列"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "grid !! 1 !! 2 を参照するため、入力行列は少なくとも2行3列必要です。コメントの出力7は元の3行4列の入力例に対応します。",
+      "code_sha256": "a0c85549f1278febd97d356d1644131d341defe8f6a22f5843b656d35686aa7f",
+      "published": "snippets/tips/io-patterns.md#snippet-10"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 11,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "5. N×M の行列"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "$grid[1][2] を参照するため、入力行列は少なくとも2行3列必要です。コメントの出力7は元の3行4列の入力例に対応します。",
+      "code_sha256": "b9b8751b5183d96e4a526e582c0499e2d7f2761369cebd1b6dbebf1d3b1d3057",
+      "published": "snippets/tips/io-patterns.md#snippet-11"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 12,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "5.1. N個の座標をタプルのリストにする"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "bead9dd2a719f9e3730423b7ac2651bfeed0796cf2109c40cddeb42dcc34a971",
+      "published": "snippets/tips/io-patterns.md#snippet-12"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 13,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "5.1. N個の座標をタプルのリストにする"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "e877d2484cdca51f393c76134b39b21afef04e0323e3dab6fcb6196fcd9d2e18",
+      "published": "snippets/tips/io-patterns.md#snippet-13"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 14,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "6. 文字列"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "5c0c8bed8a007864bfeb2e88f2141c24a4ad078eecb736014a34119639169855",
+      "published": "snippets/tips/io-patterns.md#snippet-14"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 15,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "6. 文字列"
+      ],
+      "tab": "Haskell",
+      "kind": "fragment",
+      "note": "do 内などで使う let の断片です。文字列 s の定義が必要です。",
+      "code_sha256": "d47ad3d467605a288a4a988dee3533bcf1105df8e8ccd57371e6f9f714e889b2",
+      "published": "snippets/tips/io-patterns.md#snippet-15"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 16,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "6. 文字列"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "8196a6e9a08ff09cbc7bc61a0a1d527ddb2d40f3344c7878d45b3bc409522ef6",
+      "published": "snippets/tips/io-patterns.md#snippet-16"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 17,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "6. 文字列"
+      ],
+      "tab": "PHP",
+      "kind": "fragment",
+      "note": "文字列 $s の定義が必要です。",
+      "code_sha256": "8c83af22e4abede50ea6980c90553a442136469658eb860b0a40801eeb4c550d",
+      "published": "snippets/tips/io-patterns.md#snippet-17"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 18,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "7. 複数テストケース (T回)"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "4bb1171c00f7fc4521571b9f0706dce73ba3ace5477f4dab0d4801f221cb0270",
+      "published": "snippets/tips/io-patterns.md#snippet-18"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 19,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "7. 複数テストケース (T回)"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "010632878963bed5c676e127af23621ca2f297d6b90dd9c403e8652cfa7b79b8",
+      "published": "snippets/tips/io-patterns.md#snippet-19"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 20,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "8. EOF まで読む"
+      ],
+      "tab": "Haskell",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "ff724b3a96c4f15694422d3f94e0eced03825445c8c318ffe08d607c816042ee",
+      "published": "snippets/tips/io-patterns.md#snippet-20"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 21,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "入力パターン",
+        "8. EOF まで読む"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "28d5b2b0ff361769b29148c1b49a91edd87767da80c1a6ace0bd6482dd9eb8b7",
+      "published": "snippets/tips/io-patterns.md#snippet-21"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 22,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "単一値"
+      ],
+      "tab": "Haskell",
+      "kind": "fragment",
+      "note": "do 内で使う出力処理の例です。",
+      "code_sha256": "e23cc02af3f923b456b203ee3be5ffd4c553d972295bbfa34a78637d1d59c45b",
+      "published": "snippets/tips/io-patterns.md#snippet-22"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 23,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "単一値"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "e5c595bbf531f27e51cc4793de2f171ae0c2827dc5193e12d2ee652a21d19877",
+      "published": "snippets/tips/io-patterns.md#snippet-23"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 24,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "複数値（スペース区切り）"
+      ],
+      "tab": "Haskell",
+      "kind": "fragment",
+      "note": "do 内で使う、スペース区切りの出力例です。",
+      "code_sha256": "753f7ec0ec40693d00c1abdb3a392586f9231df915dba8f6b7b2d1ddd754fc55",
+      "published": "snippets/tips/io-patterns.md#snippet-24"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 25,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "複数値（スペース区切り）"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "f6d85ff8c211a3eb7820cfbe7a996b8eacb9634bae33cfdd3ddb9002a75a1628",
+      "published": "snippets/tips/io-patterns.md#snippet-25"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 26,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "複数値（改行区切り）"
+      ],
+      "tab": "Haskell",
+      "kind": "fragment",
+      "note": "do 内で使う出力処理の例です。mapM_ と unlines の両方を実行すると同じ値を2回ずつ出力します。用途に応じて片方を選んでください。",
+      "code_sha256": "0328f517c73c1c2cc473aeb7e997364b241fd94a85c3a2cd2e968c78d8058344",
+      "published": "snippets/tips/io-patterns.md#snippet-26"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 27,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "複数値（改行区切り）"
+      ],
+      "tab": "PHP",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "ea41444edd584b2820e387ddacb18245dc4d765448df89d31ef5eddcd20a482a",
+      "published": "snippets/tips/io-patterns.md#snippet-27"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 28,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "Yes / No"
+      ],
+      "tab": "Haskell",
+      "kind": "fragment",
+      "note": "do 内などで使う出力処理です。Bool 型の ok の定義が必要です。",
+      "code_sha256": "5e4da62de2f47b380eaa21cad4f41b7d7ddc516385057b76752c90cb6a6536c1",
+      "published": "snippets/tips/io-patterns.md#snippet-28"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 29,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "出力パターン",
+        "Yes / No"
+      ],
+      "tab": "PHP",
+      "kind": "fragment",
+      "note": "真偽値 $ok の定義が必要です。",
+      "code_sha256": "4b00f1fc7c1a08a7370cd611bdacf5ff368415842958c9e5c685dd3bce637fc0",
+      "published": "snippets/tips/io-patterns.md#snippet-29"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 30,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "高速I/O",
+        "Haskell: getContents でまとめて読む"
+      ],
+      "tab": "",
+      "kind": "broken",
+      "note": "入力処理の骨組みです。原文は do の末尾が let のみなので、そのままではコンパイルできません。末尾に出力などの IO アクションを追加してください。",
+      "code_sha256": "da743e3ab7097247a9ad77aa9531ea65d0221743b34106a8836b62dfb912f9cc",
+      "published": "snippets/tips/io-patterns.md#snippet-30"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 31,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "高速I/O",
+        "Haskell: getContents でまとめて読む"
+      ],
+      "tab": "",
+      "kind": "program",
+      "note": "",
+      "code_sha256": "3af5e485a70a3b0fdba49a5e9aafeda0224eda9017d2be0c92b0e70f1e501796",
+      "published": "snippets/tips/io-patterns.md#snippet-31"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 32,
+      "language": "php",
+      "headings": [
+        "典型的な入出力パターン",
+        "高速I/O",
+        "PHP: fgets(STDIN) を使う"
+      ],
+      "tab": "",
+      "kind": "program",
+      "note": "入力を配列へ読み込む例です。答えの計算・出力処理は含みません。",
+      "code_sha256": "dce3fa54cdc5065cdde7bde45fa95261ffabb228652a54329226b7178d939155",
+      "published": "snippets/tips/io-patterns.md#snippet-32"
+    },
+    {
+      "source": "docs/tips/io-patterns.md",
+      "index": 33,
+      "language": "haskell",
+      "headings": [
+        "典型的な入出力パターン",
+        "注意点・ハマりどころ"
+      ],
+      "tab": "",
+      "kind": "fragment",
+      "note": "import 宣言のみです。必要なファイルの先頭へ追加してください。",
+      "code_sha256": "4ad07282f4a1b42483a63bb02c132e2b47080cb768ef1f8ae42664484f356498",
+      "published": "snippets/tips/io-patterns.md#snippet-33"
+    },
+    {
+      "source": "docs/tips/naming.md",
+      "index": 1,
+      "language": "haskell",
+      "headings": [
+        "命名規則・コツ",
+        "Haskell での命名"
+      ],
+      "tab": "変数・定数",
+      "kind": "fragment",
+      "note": "do 内での命名例です。n・pair の定義と、ST・STUArray・newArray の import が必要です。",
+      "code_sha256": "4cc7d3c5ccff2fc942af72768d14706ae7c8bd265b847bc9df1c9af0fd07bb65",
+      "published": "snippets/tips/naming.md#snippet-01"
+    },
+    {
+      "source": "docs/tips/naming.md",
+      "index": 2,
+      "language": "haskell",
+      "headings": [
+        "命名規則・コツ",
+        "Haskell での命名"
+      ],
+      "tab": "関数",
+      "kind": "incomplete",
+      "note": "関数の命名例です。solve・check の本体は ... で省略され、go は外側の n・a と配列演算子 ! の import を必要とします。",
+      "code_sha256": "d5888082e2ab6ab8542a1897d22c7ea8b405ae8a807c5b3f7c2bd3353ddfef37",
+      "published": "snippets/tips/naming.md#snippet-02"
+    },
+    {
+      "source": "docs/tips/naming.md",
+      "index": 3,
+      "language": "php",
+      "headings": [
+        "命名規則・コツ",
+        "PHP での命名"
+      ],
+      "tab": "変数",
+      "kind": "program",
+      "note": "入力を読む変数初期化の例です。答えの計算・出力処理は含みません。",
+      "code_sha256": "a8e308535a0edf35768eba0ab1a327a809b94e9637c13a2bcbc2551e0315a22b",
+      "published": "snippets/tips/naming.md#snippet-03"
+    },
+    {
+      "source": "docs/tips/naming.md",
+      "index": 4,
+      "language": "php",
+      "headings": [
+        "命名規則・コツ",
+        "PHP での命名"
+      ],
+      "tab": "関数",
+      "kind": "incomplete",
+      "note": "関数の命名を示す未実装のひな型です。check は bool を返す処理が必要で、bfs は探索処理を省略しています。",
+      "code_sha256": "46609f0732920941adfea9ae20d6fcb46e938d3e38b10ade424748efb6179cd2",
+      "published": "snippets/tips/naming.md#snippet-04"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "docs/TEMPLATE.md",
+      "index": 1,
+      "language": "haskell",
+      "reason": "コメントのみの空テンプレート"
+    },
+    {
+      "source": "docs/TEMPLATE.md",
+      "index": 2,
+      "language": "php",
+      "reason": "コメントのみの空テンプレート"
+    }
+  ]
+}
